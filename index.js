@@ -105,13 +105,13 @@ const updateArtefacts = ( camera ) => {
 const startAnimationDoor = () => isDoorUp = true
 
 const messages = {
-  start: '<img src="assets/enter_message.png" style="width: 50vh; height: auto;"/>',
-  findPass: '<img src="assets/pass.png" style="width: 50vh; height: auto;"/>',
-  findBook: '<img src="assets/book.png" style="width: 50vh; height: auto;"/>',
-  findExit: '<img src="assets/exit_message.png" style="width: 50vh; height: auto;"/><br/>' + 
+  start: '<img src="/rosa/assets/enter_message.png" style="width: 50vh; height: auto;"/>',
+  findPass: '<img src="/rosa/assets/pass.png" style="width: 50vh; height: auto;"/>',
+  findBook: '<img src="/rosa/assets/book.png" style="width: 50vh; height: auto;"/>',
+  findExit: '<img src="/rosa/assets/exit_message.png" style="width: 50vh; height: auto;"/><br/>' + 
     '<div id="endCopyright"><a href="http://otrisovano.ru" target="blank">&copy; www.otrisovano.ru</a><br/>' + 
     '<a href="https://github.com/fire888/rosa" target="blank">github</a></div>',
-  lose: '<img src="assets/rip.png" style="width: 50vh; height: auto;"/>' + 
+  lose: '<img src="/rosa/assets/rip.png" style="width: 50vh; height: auto;"/>' + 
     '<div id="endCopyright"><a href="http://js.otrisovano.ru/rosa">Restart</a></div>'  
 } 
 
