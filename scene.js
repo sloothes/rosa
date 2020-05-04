@@ -26,25 +26,25 @@ const assets = {
   textures: {
     stone: {
       map: null,
-      src: 'assets/stone.jpg'
+      src: '/rosa/assets/stone.jpg'
     },
     wood: {
       map: null,
-      src: 'assets/wood.jpg'
+      src: '/rosa/assets/wood.jpg'
     },
     books: {
       map: null,
-      src: 'assets/books.jpg'
+      src: '/rosa/assets/books.jpg'
     },
     window: {
       map: null,
-      src: 'assets/window.jpg'
+      src: '/rosa/assets/window.jpg'
     }
   },
   geoms: {
     lab: {
       geom: null,
-      src: 'assets/walls.obj'    
+      src: '/rosa/assets/walls.obj'    
     }
   } 
 }
